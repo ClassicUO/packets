@@ -1,6 +1,6 @@
 # ClassicUO Desktop and Web Non-Standard UO Packets Repository
 
-This repository is dedicated to documenting the non-standard Ultima Online (UO) packet structures used by ClassicUO Desktop and Web clients, and providing code examples for various UO emulators.
+This repository is dedicated to documenting the non-standard Ultima Online (UO) packet structures used by ClassicUO Desktop and Web clients, and providing implementations for various UO emulators.
 
 The packet structures are described in YAML form using Kaitai Struct, a declarative language used for describing various binary data structures.
 
@@ -18,7 +18,7 @@ Below is a list of custom packets used by ClassicUO Desktop and Web clients. For
 
 ## Packet Handler Implementations
 
-This repository also includes implementations for handling the packets in various UO emulators. Please check the `implemenations` directory for the code examples.
+This repository also includes implementations for handling the packets in various UO emulators. Please check the `implementations` directory for the code examples.
 If your emulator does not have any implementation you may need to implement it yourself. If you do please open a pull request and we will add it to the repository.
 
 ## Sample Packet Dumps
@@ -35,7 +35,7 @@ To use a sample packet dump:
 
 ## Contribution
 
-Your contributions are always welcome! Please read the contribution guidelines before submitting new packet structures or emulator code examples.
+Your contributions are always welcome! Please read the contribution guidelines before submitting new packet structures or emulator implementations.
 
 ## License
 
@@ -43,4 +43,4 @@ Please see the `LICENSE` file for details on the license.
 
 ---
 
-For any questions or discussions, please open an issue on GitHub. Enjoy exploring UO packets!
+For any questions or discussions, please open an issue on GitHub or reach us on the [CUO Discord](https://discord.gg/VdyCpjQ)
