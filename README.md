@@ -9,14 +9,13 @@ The packet structures are described in YAML form using Kaitai Struct, a declarat
 Below is a list of custom packets used by ClassicUO Desktop and Web clients. For each packet, you can access its Kaitai Struct description (`.ksy` file) and a sample packet dump (`.dump` file).
 
 1. [WebIdentity Packet](./WebIdentity.ksy) ([dump](./samples/WebIdentity.dump))
-     <img align="right" src="https://github.com/ClassicUO/packets/assets/1094679/91079691-cdf3-49bc-9472-f457d59c61a8">
+     <img align="right" src="https://github.com/ClassicUO/packets/assets/1094679/0e2a030c-1041-4286-95c4-da03b24ebcfc">
     - Used by Shards on the [Web Client](https://play.classicuo.org) for information about the user connecting via ClassicUO Web.
     - Contains a `Secret` known only by ClassicUO Web's Game Proxy and the Shard, which used to verify the packet is authentic. The client itself never sees the `Secret`.
     - The packet is sent as the 0xA4 SystemInfo packet. We chose to override the 0xA4 SystemInfo packet for the following reasons:
       - It's an unused packet, only sent by the OSI client, never by CUO itself. The packet handlers for ServUO/RunUO/MUO all read it, but ignore it.
       - All emulators support receiving the packet before any Account/GameServer login making it a good candidate to workaround IPLimiter.
       - It's large enough for our use, and requires no Core modifications to enable receiving.  
-   
 
 ## Packet Handler Implementations
 
