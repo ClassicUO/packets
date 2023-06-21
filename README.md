@@ -4,7 +4,7 @@ This repository is dedicated to documenting the non-standard Ultima Online (UO) 
 
 The packet structures are described in YAML form using Kaitai Struct, a declarative language used for describing various binary data structures.
 
-## Custom Kaitai Struct Packets
+## Packets
 
 Below is a list of custom packets used by ClassicUO Desktop and Web clients. For each packet, you can access its Kaitai Struct description (`.ksy` file) and a sample packet dump (`.dump` file).
 
@@ -20,7 +20,7 @@ Below is a list of custom packets used by ClassicUO Desktop and Web clients. For
 
 ## Packet Handler Implementations
 
-This repository also includes implementations for handling the packets in various UO emulators. Please check the `implementations` directory for the code examples.
+This repository also includes implementations for handling the packets in various UO emulators. Please check the `implementations` directory.
 If your emulator does not have any implementation you may need to implement it yourself. If you do please open a pull request and we will add it to the repository.
 
 ## Sample Packet Dumps
