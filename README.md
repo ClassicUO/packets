@@ -1,4 +1,4 @@
-# ClassicUO Desktop and Web Non-Standard UO Packets Repository
+# Non-Standard UO Packets Repository
 
 This repository is dedicated to documenting the non-standard Ultima Online (UO) packet structures used by ClassicUO Desktop and Web clients, and providing implementations for various UO emulators.
 
