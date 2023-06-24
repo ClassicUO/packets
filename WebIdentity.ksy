@@ -46,6 +46,6 @@ seq:
     doc: |
       User Role as defined by ClassicUO Web, currently one of user, admin, shard-owner
   - id: unused
-    size: 47
+    size-eos: true
     doc: |
       Unused remaining packet section of the SystemInfo packet
